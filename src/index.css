@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", "Noto Serif Malayalam", Georgia, serif;
+  --font-display: "Cinzel", "Noto Serif Malayalam", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", "Noto Sans Malayalam", system-ui, sans-serif;
+  --font-malayalam: "Noto Serif Malayalam", "Noto Sans Malayalam", serif;
+}
+
+/* Custom scrollbar and subtle spiritual aura glow utilities */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6ccb8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8a68b;
+}
+
+.vedic-gold-gradient {
+  background: linear-gradient(135deg, #dfa234 0%, #b8791c 50%, #8c530b 100%);
+}
+
+.vedic-border-subtle {
+  border-color: rgba(180, 150, 100, 0.2);
+}

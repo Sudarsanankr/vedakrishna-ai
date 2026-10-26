@@ -1,0 +1,6 @@
+{
+  "name": "VedaKrishna - Spiritual Encyclopedia & Vedic AI",
+  "description": "Comprehensive spiritual encyclopedia of Lord Krishna, Bhagavad Gita, and Vedic scriptures featuring a Malayalam-first Krishna Spiritual AI Chat (മലയാളം & English), interactive Gita shlokas, dilemma solvers, and sacred audio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
