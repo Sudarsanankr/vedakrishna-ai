@@ -9,7 +9,7 @@ interface Message {
   timestamp: string;
 }
 
-type LanguageMode = 'bilingual' | 'malayalam' | 'english';
+type LanguageMode = 'bilingual' | 'malayalam' | 'english';) 
 
 interface QuestionPreset {
   category: string;
@@ -130,7 +130,7 @@ Dear devotee, take refuge in Me. Through loving devotion and surrender, all anxi
     setLoading(true);
 
     try {
-      const apiBase = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '');
+      const apiBase = 'https://vedakrishna-ai.onrender.com';
       const response = await fetch(`${apiBase}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
