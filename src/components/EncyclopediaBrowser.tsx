@@ -78,7 +78,7 @@ export const EncyclopediaBrowser: React.FC = () => {
             className="group cursor-pointer relative rounded-2xl overflow-hidden border border-stone-200 bg-stone-900 shadow-xs hover:shadow-md transition-all h-64 sm:h-72"
           >
             <img
-              src={krishnaFlute} /krishna_flute_vrindavan_1793049774692.jpg"
+              src={krishnaFlute} /krishna_flute_vrindavan_1793049774692.jpg" 
               alt="Lord Krishna playing flute in the groves of Vrindavan"
               className="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-700"
               referrerPolicy="no-referrer"
