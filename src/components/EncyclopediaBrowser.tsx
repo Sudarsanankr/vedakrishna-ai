@@ -1,4 +1,7 @@
-import React, { useState } from 'react';
+
+import krishnaFlute from '../assets/images/krishna_flute_vrindavan_1793049774692.jpg';
+import vishvarupaImage from '../assets/images/vishvarupa_cosmic_vision_1793049774804.jpg';
+import React, { useState } from 'react'; 
 import { ENCYCLOPEDIA_ARTICLES, EncyclopediaArticle } from '../data/vedicEncyclopedia';
 import { Search, BookOpen, Clock, Tag, ArrowRight, X } from 'lucide-react';
 
@@ -75,7 +78,7 @@ export const EncyclopediaBrowser: React.FC = () => {
             className="group cursor-pointer relative rounded-2xl overflow-hidden border border-stone-200 bg-stone-900 shadow-xs hover:shadow-md transition-all h-64 sm:h-72"
           >
             <img
-              src="/src/assets/images/krishna_flute_vrindavan_1793049774692.jpg"
+              src={krishnaFlute} /krishna_flute_vrindavan_1793049774692.jpg"
               alt="Lord Krishna playing flute in the groves of Vrindavan"
               className="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-700"
               referrerPolicy="no-referrer"
@@ -103,7 +106,7 @@ export const EncyclopediaBrowser: React.FC = () => {
             className="group cursor-pointer relative rounded-2xl overflow-hidden border border-stone-200 bg-stone-900 shadow-xs hover:shadow-md transition-all h-64 sm:h-72"
           >
             <img
-              src="/src/assets/images/vishvarupa_cosmic_vision_1793049774804.jpg"
+             src={vishvarupaImage}
               alt="The Vishvarupa cosmic universal form of Krishna"
               className="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-700"
               referrerPolicy="no-referrer"
