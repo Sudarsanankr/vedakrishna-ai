@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, Sparkles, RefreshCw, Copy, Check, Feather, Volume2, Globe, Heart, BookOpen } from 'lucide-react';
+import { Send, Sparkles, RefreshCw, Copy, Check, Feather, Volume2, Globe, BookOpen, Mic }  from 'lucide-react';
 import { vedicAudio } from '../utils/audioSynthesizer';
 
 interface Message {
@@ -480,7 +480,19 @@ Dear seeker, do not worry. Remember the words of Bhagavad Gita 18.65: "Fix your 
                 disabled={loading}
                 className="flex-1 px-4 py-3 bg-stone-50 border border-stone-300 rounded-xl text-sm text-stone-900 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-amber-500/50 focus:border-amber-500 font-sans"
               />
-              <button
+            <button
+  type="button"
+  onClick={toggleVoiceInput}
+  disabled={loading}
+  className={`p-3 rounded-xl border ${
+    isListening
+      ? 'bg-red-100 border-red-400 text-red-700'
+      : 'bg-amber-50 border-amber-300 text-amber-800'
+  }`}
+  aria-label="മലയാളം ശബ്ദ ഇൻപുട്ട്"
+>
+  <Mic size={20} />
+</button>  <button
                 type="submit"
                 disabled={!input.trim() || loading}
                 className="px-5 py-3 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 hover:from-amber-300 hover:to-amber-400 disabled:bg-stone-200 disabled:from-stone-200 disabled:to-stone-200 text-amber-950 font-medium text-sm rounded-xl transition-all shadow-xs flex items-center gap-2 shrink-0 border border-amber-400/70"
