@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, Compass, MessageCircle, Heart, Sparkles, Feather } from 'lucide-react';
+import chariotImage from '../assets/images/krishna_arjuna_chariot_1793049774568.jpg';
 
 interface HeroSectionProps {
   onSelectTab: (tab: string) => void;
@@ -104,7 +105,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="lg:col-span-5 flex flex-col">
             <div className="relative rounded-xl overflow-hidden border border-amber-900/20 bg-stone-900 shadow-md h-full flex flex-col justify-between group">
               <img
-                src="/src/assets/images/krishna_arjuna_chariot_1793049774568.jpg"
+                src={chariotImage}/krishna_arjuna_chariot_1793049774568.jpg"
                 alt="Lord Krishna and Arjuna upon the chariot at Kurukshetra, traditional museum painting"
                 className="w-full h-72 sm:h-80 lg:h-full object-cover object-center transition-transform duration-700 group-hover:scale-102"
                 referrerPolicy="no-referrer"
