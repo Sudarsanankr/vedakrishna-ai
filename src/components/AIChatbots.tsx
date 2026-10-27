@@ -9,7 +9,7 @@ interface Message {
   timestamp: string;
 }
 
-type LanguageMode = 'bilingual' | 'malayalam' | 'english';) 
+type LanguageMode = 'bilingual' | 'malayalam' | 'english';
 
 interface QuestionPreset {
   category: string;
