@@ -1,0 +1,11 @@
+{
+  "id": "/",
+  "name": "VedaKrishna AI",
+  "short_name": "VedaKrishna",
+  "description": "Vedic Encyclopedia and Krishna AI",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#7C2D12"
+}
